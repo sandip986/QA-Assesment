@@ -27,7 +27,7 @@ describe("Checking request quotation", () => {
       cy.get("#quotation_vehicle_attributes_parkinglocation").select(
         "Private Property"
       );
-      //start of ploicy year
+      //start of policy year
       cy.get("#quotation_vehicle_attributes_policystart_1i").select("2022");
       //save quotation
       cy.get("#new_quotation > .actions > .btn-success").click()
